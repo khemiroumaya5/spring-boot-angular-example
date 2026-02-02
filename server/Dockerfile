@@ -1,5 +1,5 @@
 # Dockerfile backend
-FROM eclipse-temurin:17-jdk
+FROM eclipse-temurin:11-jdk
 
 # Copier le JAR compilé dans l'image
 COPY target/*.jar app.jar
